@@ -1,0 +1,30 @@
+{
+  "name": "@cortico/oscar",
+  "version": "1.0.0",
+  "description": "An honest approach towards mapping oscar entities to JavaScript",
+  "main": "index.js",
+  "repository": "https://github.com/cortico-health/oscar",
+  "author": "Aaron Ahn",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.0",
+    "babel-loader": "^8.2.2",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-typescript": "^7.14.5"
+  },
+  "dependencies": {
+
+  }
+}
